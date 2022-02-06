@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "injection-script-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/injectionScriptWebPart/InjectionScriptWebPartWebPart.js",
+          "manifest": "./src/webparts/injectionScriptWebPart/InjectionScriptWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InjectionScriptWebPartWebPartStrings": "lib/webparts/injectionScriptWebPart/loc/{locale}.js"
+  }
+}
